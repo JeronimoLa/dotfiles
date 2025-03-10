@@ -2,7 +2,9 @@
 ###   FUNCTIONS   ### 
 #####################
 
-
+function hello_world(){
+	echo 'hello world'
+}
 # TODO: Ideas of functions to build
 
 # FUNCTION - that will rename an existing directory, called rename 
