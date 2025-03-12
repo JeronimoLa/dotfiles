@@ -1,1 +1,5 @@
 # Dotfiles
+
+```
+./setup.sh
+```

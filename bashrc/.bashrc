@@ -5,23 +5,6 @@
 function hello_world(){
 	echo 'changes made inside dotfile'
 }
-# TODO: Ideas of functions to build
-
-# FUNCTION - that will rename an existing directory, called rename 
-# EX.	rename existing directory new_directory name  
-# STEPS:
-	# 1. Create a condition to only allow two arguments and they must be directories
-	# 2. take the second argument and create a new directory with the name of the second argument
-	# 3. cp all the content from directory in the first argument over to the newly created directory recursively
-	# 4. once that has been completed make sure the both dirrectorys have the same size of memory, the same number of files, and use diff to make sure everything is correct
-	# 5. for safety reasonse due to the nature of this function more than likely it could delete important content of a directory by renaming it, so created a temp directory 
-	# 6. Inside this temp directory if will save a copy of the contents inside the directory that is going to be deleted for safety precautions 
-	# 7, Manual or automate the directory stored in temp after 30 days or so 
-
-# FUNCTION - that will print out all existing functions inside of ~/.bashrc and fuck it do alias to, incase i forget
-# EX. brain (flags -f function | -a alias)  
-# STEPS:
-	# we'll see 
 
 
 # function custom_functions() {
