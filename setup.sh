@@ -13,5 +13,6 @@ do
 done
 echo "Symlinks created successfully!"
 
+source ~/.bash_profile
 # Delete's broken links found
 # find $HOME -xtype l -delete

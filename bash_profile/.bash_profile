@@ -1,10 +1,4 @@
 
-##################################################
-# Does something for homebrew - need to find out
-##################################################
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-
 #################################
 # PATHS
 #################################
@@ -24,10 +18,6 @@ export MAVEN_HOME=/Users/jeronimo/Downloads/apache-maven-3.9.9
 export PATH=$PATH:$MAVEN_HOME/bin
 
 
-
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-eval "$(thefuck --alias)"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
@@ -75,10 +65,6 @@ export NVM_DIR="$HOME/.nvm"
 # Sets prompt for terminal - references another files, maybe > .zshrc
 #######################################################################
 export PS1="\W → "
-source ~/.bashrc
-
-
-
 
 
  
@@ -86,8 +72,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc # ghcup-env
 
 
 # configure PROMPT_COMMAND which is executed each time before PS1
