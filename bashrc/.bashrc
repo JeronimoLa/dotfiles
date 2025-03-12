@@ -3,7 +3,7 @@
 #####################
 
 function hello_world(){
-	echo 'hello world'
+	echo 'changes made inside dotfile'
 }
 # TODO: Ideas of functions to build
 
